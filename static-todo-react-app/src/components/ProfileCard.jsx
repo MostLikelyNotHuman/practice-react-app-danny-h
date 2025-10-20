@@ -4,9 +4,9 @@
 const ProfileCard = ({ name, age, bio }) => {
     return (
         <div id='profileCard'>
-            <p className="name">Name: {name}</p><br />
-            <p className="age">Age: {age}</p><br />
-            <p className="bio">Bio: {bio}</p><br />
+            <p className="name">Name: {name}</p>
+            <p className="age">Age: {age}</p>
+            <p className="bio">Bio: {bio}</p>
         </div>
     )
 };
